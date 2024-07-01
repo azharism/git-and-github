@@ -1,1 +1,71 @@
+version is --
+git version 2.44.0.windows.3
+
+========================================================================================
+1. git init   ------ git initialization  to initialize the particular folder or file
+2. git add <file-name> or git add .     --------------use to move file from non stagign area to staging area or working directory to statging area
+3. git status   -----used to track the file 
+4. git commit -m "new commits"   -----------used to track the file 
+5. whenever we do a git init the defualt branch always named as master
+6. while initializing a git branch we can modify the default branch as master to any naming convention the command is as below
+7. git init --initial-branch=main  
+8. git status -v    verbose detailed output ---------used to give detailed info about file or folder which is in staging area or not
+9. git status -s     short info  """"""""""
+10. how to revert the code from master if wrong commit ocuure-----------------------
+11. git reset --hard <commid Id>
+12. git push origin main --force
+13. git branch --all
+14. git status
+================================================================================
+to undo from staging area to non staging area or undo of git add .
+1. git rm --cached file.txt file2.txt file3.tx
+===============================================================
+commit has four phases which is called commit object---
+1.who commited the code
+2. when commited the code
+3. commite message
+4. snapshot of the file from staging area to commit
+5.SHA1 id geberated with 40 character alphanumeric numbers (secure hashing algorithm 1)
+===========================================================================================================
+if we want to modify commited file simply we did and run the following command to commit again the modified commited file
+1. git commit -a -m "modified"
+2. git commit --amend  (used to commit the unstage file into commited file)
+3. git commit --allow-empty -m "dummy commit"
+===================================================================================================
+git log -n 2    -----(to see the last 2 or 3 commits use this command)
+git log -1  -------------(use as same)
+git log --pretty=short
+git log --pretty=full
+git log --pretty=fuller
+git log --pretty=oneline
+===========================================================================================
+
+git log -p -----(used to see the kis commit mei kya kya changes hue the)
+git log --pretty=format:"%h"    ----(used to get only hashing commits id)
+git log --pretty=format:"%h %s"   ---(used to get commit message also)
+git log --pretty=format:"%h %s %an"  ----(used to get athor name alse)
+git log --pretty=format:"%h %s %an %ae"   ----(used to get author email address also)
+=========================================================================================================
+to see last one week commit command used for 
+git log --since="1 week ago"  -------(to see last one week commit command used for )
+git log --since="yesterday"
+git log --since="1 monthe ago"
+git log --since="2024-07-01" --until="2024-07-02"
+git log --author="rutuja vare"
+git log --author="sagar"
+git log --grep="modified"
+git log --grep="bugfix"
+git log --grep="conflicts"
+============================================================================================================
+
+
+
+
+
+
+
+
+
+
+
 
