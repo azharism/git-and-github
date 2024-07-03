@@ -63,6 +63,7 @@ git branch azhar  ---(to create a branch from exit branch)
 git checkout -b azhar ----(to create a branch from exiting and checkout in it)
 git branch -d <branch-name>
 git branch -D <branch-name>
+git push -u origin <branch-name>
 
 
 
