@@ -65,6 +65,10 @@ git branch -d <branch-name>
 git branch -D <branch-name>
 git push -u origin <branch-name>
 
+To create a new brand and upload it, use the command:
+git push --set-upstream
+git clone -b <branch-name> <git address>
+
 
 
 
