@@ -68,6 +68,7 @@ git push -u origin <branch-name>
 To create a new brand and upload it, use the command:
 git push --set-upstream
 git clone -b <branch-name> <git address>
+git reflog  <--used to see all git action history--->
 
 
 
