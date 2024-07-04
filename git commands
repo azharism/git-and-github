@@ -71,6 +71,18 @@ git clone -b <branch-name> <git address>
 git reflog  <--used to see all git action history--->
 git remote update origin --prune
 
+==============================================================================================================
+merge conflicts resolution-----------------------------------
+
+<<<<<<< HEAD
+hello my lord of the ring---rahul
+=======
+hello my name Is azhar--------------azhar
+>>>>>>> feature2                  --(this is the conflict scenario just remove <<<<<<< HEAD and "=======" and >>>>>>> feature2 to resolve conflict)
+
+===========================================================================================================================================================================
+
+
 
 
 
