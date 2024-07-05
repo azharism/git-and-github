@@ -27,7 +27,7 @@ commit has four phases which is called commit object---
 4. snapshot of the file from staging area to commit
 5.SHA1 id geberated with 40 character alphanumeric numbers (secure hashing algorithm 1)
 ===========================================================================================================
-if we want to modify commited file simply we did and run the following command to commit again the modified commited file
+if we want to modify commited file simply we did and run the following command to commit again the modified commited file or git tracke already a file which is modiy then we this command.
 1. git commit -a -m "modified"
 2. git commit --amend  (used to commit the unstage file into commited file)
 3. git commit --allow-empty -m "dummy commit"
@@ -81,6 +81,12 @@ hello my name Is azhar--------------azhar
 >>>>>>> feature2                  --(this is the conflict scenario just remove <<<<<<< HEAD and "=======" and >>>>>>> feature2 to resolve conflict)
 
 ===========================================================================================================================================================================
+
+git commit -m "subeject" -m "body"                ------------------(used to create for subjet and body creation)
+git commit --allow-empty -m "ok"            ---------------------------used for emty commit"
+git commit -s -m "sign off"   ------------used to give a sign off or fulfill the task message"
+
+
 
 
 
