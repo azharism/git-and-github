@@ -85,6 +85,15 @@ hello my name Is azhar--------------azhar
 git commit -m "subeject" -m "body"                ------------------(used to create for subjet and body creation)
 git commit --allow-empty -m "ok"            ---------------------------used for emty commit"
 git commit -s -m "sign off"   ------------used to give a sign off or fulfill the task message"
+======================================================================================================================
+
+remote branch commands-------------
+
+git push -u random1
+git remote
+git remote -v
+origin ----meaning  remote
+
 
 
 
