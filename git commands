@@ -93,6 +93,8 @@ git push -u random1   -- used to push new local branch to remote branch-- where 
 git remote
 git remote -v
 origin ----meaning  remote
+git fetch --prune    -(used to remove local tracked remote branch if on remote branch is deleted)
+git fetch origin/master
 
 
 
