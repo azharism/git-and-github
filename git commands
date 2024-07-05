@@ -89,7 +89,7 @@ git commit -s -m "sign off"   ------------used to give a sign off or fulfill the
 
 remote branch commands-------------
 
-git push -u random1
+git push -u random1   -- used to push new local branch to remote branch-- where random1 is new branch name
 git remote
 git remote -v
 origin ----meaning  remote
