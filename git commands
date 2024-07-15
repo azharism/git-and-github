@@ -95,6 +95,7 @@ git remote -v
 origin ----meaning  remote
 git fetch --prune    -(used to remove local tracked remote branch if on remote branch is deleted)
 git fetch origin/master
+ssh -T git@github.com  ------------------for authentication check
 
 
 
