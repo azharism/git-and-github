@@ -96,7 +96,21 @@ origin ----meaning  remote
 git fetch --prune    -(used to remove local tracked remote branch if on remote branch is deleted)
 git fetch origin/master
 ssh -T git@github.com  ------------------for authentication check
+===============================================================================================
 
+authentication issue resolve
+
+create pat and 
+
+personal access tocken use for gihub integration
+
+
+sir peraonal access tocken ke through connect kiy hai if u run this will update with this tocken I created on GitHub repo
+
+ghp_odnfbfbbfiirirhiiiiiiiiiiiiiiiirnndnnnnnd   ---------personal access tocken…..
+
+
+git remote set-url origin https://ohrhhfhndhfnfhueuwjjwjwjjjjeuuruurfgnfnrnrnrnrnr@github.com/doonios.pissa.com
 
 
 
